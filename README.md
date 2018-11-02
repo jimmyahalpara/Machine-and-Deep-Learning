@@ -1,6 +1,6 @@
 # Tensorflow-Projects
 Here I'll be posting my tensorflow codes as I start Learning them
-<h1>1.  My first program was of linear regression</h1> 
+<h1>1.  My first program of linear regression</h1> 
 
 My first program of linear regression was just plotting the hypothesis on the datasets randomly created using **numpy** and plotted using **matplotlib** in **python** and model trainded by **tensorflow** using **gradient descent algorithem**.
 
