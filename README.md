@@ -7,3 +7,4 @@ My first program of linear regression was just plotting the hypothesis on the da
 ![plotting of hypothesis](https://github.com/jimmyahalpara/Tensorflow-Projects/blob/master/simple%20linear%20regression%20with%20tensorflow%20by%20me/Capture.PNG)
 
 <h2> How linear regression and gradient descent works </h2>
+![model training](https://github.com/jimmyahalpara/Tensorflow-Projects/blob/master/simple%20linear%20regression%20with%20tensorflow%20by%20me/Webp.net-gifmaker.gif)
