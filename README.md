@@ -16,4 +16,5 @@ Let's say you have three points with following positions
 
 We want to make prediction on this we wan't a line that traces all the points and to the prediction will be easy in the future.
 But we need the line such that it passes all the points roughly or maybe we can minimize the error between the point and line that will make our line approximatly pass over our points.
-
+Lets say in this diagram the distance between two points on X any Y axis represent one unit distance.
+Tracing the points perfectly we get the following line that we want from regression.
