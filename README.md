@@ -31,3 +31,7 @@ lets say we have randomly initialized the slope and intercept as follows **x<sub
 We'll call this line as **hypothesis** and denote the equation as **h(x)** that is **h(x) = x<sub>1</sub>.x + x<sub>0</sub>** and our case **h(x) = 2**.
 We can trace our initial hypothesis as follows:-
 
+![fig](https://github.com/jimmyahalpara/Tensorflow-Projects/blob/master/Guide%20materials/linear%20regression%203.png)
+
+We can make prediction using our hypothesis by inserting the value of **x** in **h(x)** and getting the predicted value or we can say value returned after solving the value of hypothesis at **x** equal to the value at which we want to predict.
+lets say at 
