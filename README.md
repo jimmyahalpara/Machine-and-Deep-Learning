@@ -27,5 +27,7 @@ Lets initialize the line with following eqution
 
 **y = x<sub>1</sub>.x + x<sub>0</sub>** where **x<sub>1</sub>** is the slope of the line and **x<sub>0</sub>** is intercept of the line.
 We have to adjust the slpe and the intercept of the line such that the error is minimized.
-lets say we have randomly initialized the slope and intercept as follows **x<sub>1</sub> = 0** and **x<sub>0</sub> = 2** let's not worry about the error and tracing at the point of time. Our eqution will become **y = 0.x + 1 = 1**.
-We'll call this line as **hypothesis** and denote the eqution as **h(x)** that is **h(x) = x<sub>1</sub>.x + x<sub>0</sub>** and our case **h(x) = 1**.
+lets say we have randomly initialized the slope and intercept as follows **x<sub>1</sub> = 0** and **x<sub>0</sub> = 2** let's not worry about the error and tracing at the point of time. Our eqution will become **y = 0.x + 2 = 1**.
+We'll call this line as **hypothesis** and denote the equation as **h(x)** that is **h(x) = x<sub>1</sub>.x + x<sub>0</sub>** and our case **h(x) = 2**.
+We can trace our initial hypothesis as follows:-
+
