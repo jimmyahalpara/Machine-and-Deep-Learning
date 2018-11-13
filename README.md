@@ -34,4 +34,11 @@ We can trace our initial hypothesis as follows:-
 ![fig](https://github.com/jimmyahalpara/Tensorflow-Projects/blob/master/Guide%20materials/linear%20regression%203.png)
 
 We can make prediction using our hypothesis by inserting the value of **x** in **h(x)** and getting the predicted value or we can say value returned after solving the value of hypothesis at **x** equal to the value at which we want to predict.
-lets say at 
+Still our hypothesis is not perfect and cannot be used sucessfully for prediction because of the error present in it.
+
+As you remember we have providet three points earlier to trace them, let's call that our **training set** and **m** number of training example in our case we have **3** examples. So our objective is minimize the error on that training set, but what is error.
+
+We can denote error **c = (1/m).∑<sub>k=1</sub><sup>N</sup>(h(x<sup>k</sup>) - y<sup>k</sup>)<sup>2</sup>**
+
+In training set lets say **(x<sup>k</sup>, y<sup>k</sup>)** is our **kth** data. The cost function is summation of error in our prediction which can be better illustrated in the following figure.
+
