@@ -1,4 +1,4 @@
-# Tensorflow-Projects
+# **Tensorflow-Projects**
 Here I'll be posting my tensorflow codes as I start Learning them
 <h1>1.  My first program of linear regression</h1> 
 
@@ -20,3 +20,9 @@ Lets say in this diagram the distance between two points on X any Y axis represe
 Tracing the points perfectly we get the following line that we want from regression.
 
 ![tracing](https://github.com/jimmyahalpara/Tensorflow-Projects/blob/master/Guide%20materials/linear%20regression%202.png)
+
+In this figure we want eqution of the pink line such that error is minimized.
+
+Lets initialize the line with following eqution
+
+**y = x<sub>1</sub>.x + x<sub>0</sub>** where **x<sub>1</sub>** is the slope of the line and **x<sub>0</sub>** is intercept of the line.
