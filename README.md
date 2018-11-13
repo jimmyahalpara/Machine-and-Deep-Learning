@@ -42,3 +42,10 @@ We can denote error **c = (1/m).∑<sub>k=1</sub><sup>N</sup>(h(x<sup>k</sup>) -
 
 In training set lets say **(x<sup>k</sup>, y<sup>k</sup>)** is our **kth** data. The cost function is summation of error in our prediction which can be better illustrated in the following figure.
 
+![fig](https://github.com/jimmyahalpara/Tensorflow-Projects/blob/master/Guide%20materials/linear%20regression%204.png)
+
+In the figure we can see that the difference between the actual training point and the predicted point is represented by the grey line.
+So, our error function **c** is also called **cost function** and our objective as said earlied is to minimize our cost function by properly adjusting **x<sub>0</sub>** and **x<sub>1</sub>** that is **intercept** and **slope** of the line or our **hypothesis** and we can call **x<sub>0</sub>** and **x<sub>1<sub>** as our parameters which we will adjust so that the **cost function** minimizes.
+
+There are many types of algorithm for doing that job of minimizing the cost function and we will use **Gradient Descent** for that job.
+
