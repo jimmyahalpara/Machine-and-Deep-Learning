@@ -48,4 +48,13 @@ In the figure we can see that the difference between the actual training point a
 So, our error function **c** is also called **cost function** and our objective as said earlied is to minimize our cost function by properly adjusting **x<sub>0</sub>** and **x<sub>1</sub>** that is **intercept** and **slope** of the line or our **hypothesis** and we can call **x<sub>0</sub>** and **x<sub>1<sub>** as our parameters which we will adjust so that the **cost function** minimizes.
 
 There are many types of algorithm for doing that job of minimizing the cost function and we will use **Gradient Descent** for that job.
-Let Us see how **Gradient Descent**.
+Let Us see how **Gradient Descent** works.
+
+![fig](https://github.com/jimmyahalpara/Tensorflow-Projects/blob/master/Guide%20materials/linear%20regression%205.png)
+
+Here we'll do partial derivative of **cost function** and it is multiplied to **alpha** that is **learning rate** and is subtracted from the parameter and the value is assigned to the same parameter.
+
+But how it will work practically.
+Tempeorarily assume that in our case we have to adjust only **X<sub>1</sub>** and not **x<sub>0</sub>** means our **intercept** is adjusted but out slope is not. Then the graph of **c (cost)** vs **x<sub>1</sub>** will look like this roughly, which is not for scale. 
+
+
