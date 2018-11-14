@@ -53,8 +53,16 @@ Let Us see how **Gradient Descent** works.
 ![fig](https://github.com/jimmyahalpara/Tensorflow-Projects/blob/master/Guide%20materials/linear%20regression%205.png)
 
 Here we'll do partial derivative of **cost function** and it is multiplied to **alpha** that is **learning rate** and is subtracted from the parameter and the value is assigned to the same parameter.
+The above shown expression in only one step of gradient descent. In one step the point will move toward the local minima and as you take more steps. 
 
 But how it will work practically.
 Tempeorarily assume that in our case we have to adjust only **X<sub>1</sub>** and not **x<sub>0</sub>** means our **intercept** is adjusted but out slope is not. Then the graph of **c (cost)** vs **x<sub>1</sub>** will look like this roughly, which is not for scale. 
 
+![gradient step](https://github.com/jimmyahalpara/Tensorflow-Projects/blob/master/Guide%20materials/linear%20regression%206.png)
 
+As you can see in above figure the gradient that is partial derivative of the **cost function** will point opposite to the minima but when we subtract it from the parameter it will point towards the minima.
+
+The yellow arrow are the steps of the gradient descent. The length of the steps is proportional to the **alpha** that is learning rate.
+It **learning rate** is too high then it will overtake the minima and the cost will start increasing inspite of decreasing but is **learning rate** is too low then gradient descent will take too many steps to converge to local minima thus increasing the computing.
+
+As I told above that we have ignored the **x<sub>0</sub>**, but is we consider that paramater and plot a 3d graph where z axis is **cost**, x axis is **x<sub>1</sub>** and y axis is **x<sub>0</sub>.
