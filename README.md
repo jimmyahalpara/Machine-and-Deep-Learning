@@ -48,4 +48,4 @@ In the figure we can see that the difference between the actual training point a
 So, our error function **c** is also called **cost function** and our objective as said earlied is to minimize our cost function by properly adjusting **x<sub>0</sub>** and **x<sub>1</sub>** that is **intercept** and **slope** of the line or our **hypothesis** and we can call **x<sub>0</sub>** and **x<sub>1<sub>** as our parameters which we will adjust so that the **cost function** minimizes.
 
 There are many types of algorithm for doing that job of minimizing the cost function and we will use **Gradient Descent** for that job.
-
+Let Us see how **Gradient Descent**.
