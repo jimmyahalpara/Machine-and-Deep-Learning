@@ -65,7 +65,7 @@ As you can see in above figure the gradient that is partial derivative of the **
 The yellow arrow are the steps of the gradient descent. The length of the steps is proportional to the **alpha** that is learning rate.
 It **learning rate** is too high then it will overtake the minima and the cost will start increasing inspite of decreasing but is **learning rate** is too low then gradient descent will take too many steps to converge to local minima thus increasing the computing.
 
-As I told above that we have ignored the **x<sub>0</sub>**, but is we consider that paramater and plot a 3d graph where z axis is **cost**, x axis is **x<sub>1</sub>** and y axis is **x<sub>0</sub>.
+As I told above that we have ignored the **x<sub>0</sub>**, but is we consider that paramater and plot a 3d graph where z axis is **cost**, x axis is **x<sub>1</sub>** and y axis is **x<sub>0</sub>**.
 
 ![two variable cost function graph](https://github.com/jimmyahalpara/Tensorflow-Projects/blob/master/Guide%20materials/linear%20regression%207.png)
 
