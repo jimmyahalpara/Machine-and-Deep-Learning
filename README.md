@@ -69,4 +69,7 @@ As I told above that we have ignored the **x<sub>0</sub>**, but is we consider t
 
 ![two variable cost function graph](https://github.com/jimmyahalpara/Tensorflow-Projects/blob/master/Guide%20materials/linear%20regression%207.png)
 
+So in our example our line will become like this.
+
+
 
