@@ -1,4 +1,4 @@
-# **Tensorflow-Projects**
+# **Machine Learning and Deep Learning**
 Here I'll be posting my tensorflow codes as I start Learning them
 <h1>1.  My first program of linear regression</h1> 
 
