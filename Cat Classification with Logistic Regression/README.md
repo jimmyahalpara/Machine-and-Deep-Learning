@@ -1,7 +1,7 @@
 
 # Classifying Cats with Logistic regression
 
-This is Deeplearning.ai assignment, I have done some modificatin so that we can save the model that we have trained.
+This is Deeplearning.ai assignment. Here logistic regression keeping Neural Network in mind. I have done some modificatin so that we can save the model that we have trained.
 
 ## Accuracy Analysis
 
