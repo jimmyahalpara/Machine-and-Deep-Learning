@@ -6,13 +6,14 @@
 Here I'll be posting my work as I learn and make.
 
 ## Resources from where I am learning
-1. [deeplearnin.ai Specialization - Coursera](https://www.coursera.org/specializations/deep-learning)
+1. [Machine Learning by Stanford University- Coursera](https://www.coursera.org/learn/machine-learning)
+2. [Deeplearnin.ai Specialization - Coursera](https://www.coursera.org/specializations/deep-learning)
 	* [Neural Network and Deeplearning](https://www.coursera.org/learn/neural-networks-deep-learning?specialization=deep-learning)
 	* [Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization](https://www.coursera.org/learn/deep-neural-network?specialization=deep-learning)
 	* [Structuring Machine Learning Projects](https://www.coursera.org/learn/machine-learning-projects?specialization=deep-learning)
 	* [Convolutional Neural Networks](https://www.coursera.org/learn/convolutional-neural-networks?specialization=deep-learning)
 	* [Sequence Models](https://www.coursera.org/learn/nlp-sequence-models)
-2. [Tensorflow Documentation](https://www.tensorflow.org/learn)
+3. [Tensorflow Documentation](https://www.tensorflow.org/learn)
 ### 1.  My first program of linear regression 
 
 My first program of linear regression was just plotting the hypothesis on the datasets randomly created using **numpy** and plotted using **matplotlib** in **python** and model trainded by **tensorflow** using **gradient descent algorithem**.
