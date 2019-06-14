@@ -1,5 +1,5 @@
 # **Machine Learning and Deep Learning**
-* ![Linear Regression with Tensorflow] 
+* [Linear Regression with Tensorflow](https://github.com/jimmyahalpara/Machine-and-Deep-Learning/tree/master/simple%20linear%20regression%20with%20tensorflow%20by%20me)
 
 Here I'll be posting my tensorflow codes as I start Learning them
 
