@@ -191,6 +191,7 @@ except:
     plt.title("Learning rate =" + str(d["learning_rate"]))
     plt.show()
 
+#can be used to test accuracy against different learning rates and number of iterations
 ##learning_rates = [0.01,0.02,0.03,0.05, 0.001, 0.0001]
 ##models = {}
 ##for i in learning_rates:
@@ -211,19 +212,4 @@ except:
 
 
 
-while True:
-    my_image = input("Enter you Image name inside 'images/' directory (or -1 to exit):")
-    if my_image == "-1":
-        break
-    fname = "images/" + my_image
-    image = np.array(ndimage.imread(fname, flatten=False))
-    image = np.array(matplotlib.pyplot.imread(fname))
-    image = image/255.
-    my_image = skimage.transform.resize(image,(num_px,num_px)).reshape((1, num_px*num_px*3)).T
-    my_image = scipy.misc.imresize(image, size=(num_px,num_px)).reshape((1, num_px*num_px*3)).T
-    my_predicted_image = predict(d["w"], d["b"], my_image)
 
-    plt.imshow(image)
-    
-    print("y = " + str(np.squeeze(my_predicted_image)) + ", your algorithm predicts a \"" + classes[int(np.squeeze(my_predicted_image)),].decode("utf-8") +  "\" picture.")
-    plt.show()
