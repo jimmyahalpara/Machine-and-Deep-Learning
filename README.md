@@ -9,6 +9,7 @@
 	* Made by keeping neural network in mind.
 	* Did some modification in my Deeplearning.ai programming assignment
 	* Used modules **Numpy, Matplotlib, Scipy, skimage, pickle, PIL**
+
 Here I'll be posting my work as I learn and make.
 
 ## Resources from where I am learning
