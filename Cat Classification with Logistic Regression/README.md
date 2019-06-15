@@ -9,6 +9,8 @@ This is Deeplearning.ai assignment. Here logistic regression is done keeping Neu
 
 *image source - Deeplearning.ai specialization* 
 
+ Here used sigmoid Activation function
+
 ## Accuracy Analysis
 
 Bellow is the Accuracy analysis for three different values of learning rate and no of iterations =  15000
