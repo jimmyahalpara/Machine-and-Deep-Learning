@@ -7,6 +7,7 @@
 	* Used modules **Tensorflow**,**Numpy** and **Matplotlib**. 
 * [Logistic Regression - Cat Classification](https://github.com/jimmyahalpara/Machine-and-Deep-Learning/tree/master/Cat%20Classification%20with%20Logistic%20Regression)
 	* Made by keeping neural network in mind.
+	* Compared accuracy for different **Learning Rate** and **No of Iterations**
 	* Did some modification in my Deeplearning.ai programming assignment
 	* Used modules **Numpy, Matplotlib, Scipy, skimage, pickle, PIL**
 
