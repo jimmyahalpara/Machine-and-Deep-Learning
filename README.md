@@ -10,7 +10,7 @@
 	* Compared accuracy for different **Learning Rate** and **No of Iterations**
 	* Did some modification in my Deeplearning.ai programming assignment
 	* Used modules **Numpy, Matplotlib, Scipy, skimage, pickle, PIL**
-* [Classification with Shallow Neural Network](Classification using Shallow Neural Network)
+* [Classification with Shallow Neural Network](https://github.com/jimmyahalpara/Machine-and-Deep-Learning/tree/master/Classification%20using%20Shallow%20Neural%20Network)
 	* Created Neural network with one Hidden Layer
 	* Trained using dataset from **sklearn**
 	* Compared Accuracy against different **Datasets**, **No. of Hidden Layer Neurons**
