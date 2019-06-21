@@ -8,13 +8,19 @@
 * [Logistic Regression - Cat Classification](https://github.com/jimmyahalpara/Machine-and-Deep-Learning/tree/master/Cat%20Classification%20with%20Logistic%20Regression)
 	* Made by keeping neural network in mind.
 	* Compared accuracy for different **Learning Rate** and **No of Iterations**
-	* Did some modification in my Deeplearning.ai programming assignment
+	* created by doing some modification in my Deeplearning.ai programming assignment
 	* Used modules **Numpy, Matplotlib, Scipy, skimage, pickle, PIL**
 * [Classification with Shallow Neural Network](https://github.com/jimmyahalpara/Machine-and-Deep-Learning/tree/master/Classification%20using%20Shallow%20Neural%20Network)
-	* Created Neural network with one Hidden Layer
+	* Implemented Neural network with one Hidden Layer
 	* Trained using dataset from **sklearn**
 	* Compared Accuracy against different **Datasets**, **No. of Hidden Layer Neurons**
 	* Used modules **Sklearn, Matplotlib, Numpy**
+* [Cat Classification Using Deep Neural Network]()
+	* Implemented Neural Network with Multiple Layers
+	* Added feature for saving our trained model
+	* Can predict from images provided from user
+	* Created by doing some modification in deeplearning.ai assignment
+	* Used modules **Numpy, Scipy, Matplotlib, PIL, pickle**
 
 Here I'll be posting my work as I learn and make.
 
