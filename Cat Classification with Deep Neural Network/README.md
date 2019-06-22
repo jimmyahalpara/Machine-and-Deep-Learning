@@ -4,7 +4,7 @@ Following program for Deep Neural network is made from deeplearning.ai Specializ
 
 ## Usage
 
-When you start the Main program.py, you have to select some pre-trained model or train new one by selecting Option 1 and 2. I you train new model it gets saved in current directroy with **.mod** extenison.
+When you start the Main program.py, you have to select some pre-trained model or train new one by selecting Option 1. I you train new model it gets saved in current directroy with **.mod** extenison.
 
 ## Modules used
 
