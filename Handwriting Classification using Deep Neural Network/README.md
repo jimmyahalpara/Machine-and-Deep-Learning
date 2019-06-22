@@ -15,7 +15,7 @@ In this project you can create your custom model train it with any number of tra
 ## Contents
 
 * **Main Program.py** - Contains Main Neural Network Implementation
-* **dnn_utils_v2.py** - Contains some important functions for Implementation of Neural Network, Forward Propogations, and Backpropogation.
+* **dnn_utils_v2.py** - Contains some important functions for Implementation of Neural Network, Forward Propogations, and Backpropagation.
 * **dataset.mm** - This file contains MNIST datasets form keras and it is processed to match the model. Saved using pickle module, Data stored in form of (X_train, Y_train),(X_test, Y_test).
 * **mainModel.mod** - This is a type of file in which this program saves the model using pickle module. Model is save in (parameters, layer_dimensions) format.
 
