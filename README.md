@@ -41,6 +41,8 @@ Here I'll be posting my work as I learn and make.
 	* [Sequence Models](https://www.coursera.org/learn/nlp-sequence-models)
 3. [Tensorflow Documentation](https://www.tensorflow.org/learn)
 4. [Scipy and Numpy Documentation](https://docs.scipy.org/doc/)
+5. [Matplotlib](https://matplotlib.org/)
+6. [Udacity](https://www.udacity.com/)
 ### 1.  My first program of linear regression 
 
 My first program of linear regression was just plotting the hypothesis on the datasets randomly created using **numpy** and plotted using **matplotlib** in **python** and model trainded by **tensorflow** using **gradient descent algorithem**.
