@@ -1,5 +1,11 @@
 # **Machine Learning and Deep Learning**
 ## My Work 
+* [Handwriting Classification Using Deep Neural Network]()
+	* Implemented Deep Neural Network from previous project **Cat Classification Using Deep Neural Network**
+	* Modified Input and Output layer size
+	* Used **MNIST** dataset
+	* Added Feature to Save trained model, Retrain same model
+	* Used modules **Numpy, Matplotlib, Scipy, PIL, pickle, Skimage**
 * [Cat Classification Using Deep Neural Network](https://github.com/jimmyahalpara/Machine-and-Deep-Learning/tree/master/Cat%20Classification%20with%20Deep%20Neural%20Network)
 	* Implemented Neural Network with Multiple Layers
 	* Added feature for saving our trained model
