@@ -1,6 +1,6 @@
 # **Machine Learning and Deep Learning**
 ## My Work 
-* [Handwriting Classification Using Deep Neural Network](https://github.com/jimmyahalpara/Machine-and-Deep-Learning/tree/master/Cat%20Classification%20with%20Deep%20Neural%20Network)
+* [Handwriting Classification Using Deep Neural Network](https://github.com/jimmyahalpara/Machine-and-Deep-Learning/tree/master/Handwriting%20Classification%20using%20Deep%20Neural%20Network)
 	* Implemented Deep Neural Network from previous project **Cat Classification Using Deep Neural Network**
 	* Modified Input and Output layer size
 	* Used **MNIST** dataset
