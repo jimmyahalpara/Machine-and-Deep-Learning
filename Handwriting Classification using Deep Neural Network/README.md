@@ -21,7 +21,7 @@ In this project you can create your custom model train it with any number of tra
 
 ## Some Examples
 
-!([Fig1](images/Figure_1.png)
+![Fig1](images/Figure_1.png)
 ![FIg2](images/Figure_2.png)
 ![Fig2](images/Figure_3.png)
 ![Fig3](images/Figure_5.png)
