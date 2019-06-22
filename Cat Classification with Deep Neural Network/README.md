@@ -12,8 +12,8 @@ Following program for Deep Neural network is made from deeplearning.ai Specializ
 
 ## Contents
 
-* Main Program.py - Main file
-* dnn_utils_v2 - provides some useful functions for neural network.
+* **Main Program.py** - Main file
+* **dnn_utils_v2** - provides some useful functions for neural network.
 
 ## 2 Layer Neural Network Model
 

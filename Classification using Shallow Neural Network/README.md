@@ -10,8 +10,8 @@ This programing is made using Deeplearning.ai Specialization Course 1 Assignment
 
 ## Contents
 
-* Main program.py - main program for creation of NeuralNetwork and Its training.
-* planar_utils.py - provides sume useful function, and provide main program with datasets made using sklearn.
+* **Main program.py** - main program for creation of NeuralNetwork and Its training.
+* **planar_utils.py** - provides sume useful function, and provide main program with datasets made using sklearn.
  
 ## Neural Network Model
 
