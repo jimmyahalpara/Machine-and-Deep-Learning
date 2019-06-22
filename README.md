@@ -21,7 +21,7 @@
 	* Made by keeping neural network in mind.
 	* Compared accuracy for different **Learning Rate** and **No of Iterations**
 	* created by doing some modification in my Deeplearning.ai programming assignment
-	* Used modules **Numpy, Matplotlib, Scipy, skimage, pickle, PIL**
+	* Used modules **Numpy, Matplotlib, Scipy, Skimage, Pickle, PIL**
 * [Linear Regression with Tensorflow](https://github.com/jimmyahalpara/Machine-and-Deep-Learning/tree/master/simple%20linear%20regression%20with%20tensorflow%20by%20me)
 	* Used Tensorflow
 	* Used Gradient Descent for optimization
