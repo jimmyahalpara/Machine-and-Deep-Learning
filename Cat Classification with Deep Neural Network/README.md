@@ -2,7 +2,7 @@
 
 Following program for Deep Neural network is made from deeplearning.ai Specialization course 1 Assignment. I have added some extra features for custamizing our network and saving our model. Hope you enjoy.
 
-# Usage
+## Usage
 
 When you start the Main program.py, you have to select some pre-trained model or train new one by selecting Option 1 and 2. I you train new model it gets saved in current directroy with **.mod** extenison.
 
