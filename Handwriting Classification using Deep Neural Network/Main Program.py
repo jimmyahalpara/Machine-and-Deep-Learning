@@ -7,7 +7,7 @@ from scipy import ndimage
 from dnn_utils_v2 import sigmoid, sigmoid_backward, relu, relu_backward, load_data, print_mislabeled_images
 import pickle
 import skimage
-plt.rcParams['figure.figsize'] = (5.0, 4.0) # set default size of plots
+plt.rcParams['figure.figsize'] = (10.0, 8.0) # set default size of plots
 plt.rcParams['image.interpolation'] = 'nearest'
 plt.rcParams['image.cmap'] = 'gray'
 
@@ -360,9 +360,8 @@ while True:
     print("Enter 1 to import model from file")
     print("Enter 2 to train model")
     print("Enter 3 to view result on test image")
-    print("Enter 4 to view result on train image")
-    print("Enter 5 to view result on custom image")
-    print("Enter 6 to further train same Model")
+    print("Enter 4 to view result on custom image")
+    print("Enter 5 to further train same Model")
     try:
         i = int(input("Enter your options:"))
     except:
@@ -403,25 +402,20 @@ while True:
             continue
         pp, ind = predict(X_test, parameters)
         ll = int(input("Enter number of images you want to see:"))
+        k = 1
         for i in range(ll):
-            X = X_test[:, i]
-            Y = X_test[:, i]
-            plt.imshow(X.reshape(28, 28))
-            plt.title("Prediction : {}".format(ind[0][i]))
-            plt.show()
+                im = plt.subplot(4,6,k)
+                im.get_xaxis().set_visible(False)
+                im.get_yaxis().set_visible(False)
+                X = X_test[:, i]
+                Y = X_test[:, i]
+                plt.imshow(X.reshape(28, 28))
+                plt.title("Prediction : {}".format(ind[0][i]))
+                if k == 24 or i == ll - 1:
+                    plt.show()
+                    k = 0
+                k+=1
     elif i == 4:
-        if parameters == None:
-            print("Please select some model!!")
-            continue
-        pp, ind = predict(X_train, parameters)
-        ll = int(input("Enter number of images you want to see:"))
-        for i in range(ll):
-            X = X_test[:, i]
-            Y = X_test[:, i]
-            plt.imshow(X.reshape(28, 28))
-            plt.title("Prediction : {}".format(ind[0][i]))
-            plt.show()
-    elif i == 5:
         if parameters == None:
             print("Please select some model!!")
             continue
@@ -443,7 +437,7 @@ while True:
             plt.imshow(image)
             plt.title("Prediction : {}".format(ind[0][0]))
             plt.show()
-    elif i == 6:
+    elif i == 5:
         if parameters == None or dim_lis == []:
             print("please select proper model")
             continue

@@ -30,5 +30,3 @@ In this project you can create your custom model train it with any number of tra
 ![FIg2](images/Figure_2.png)
 ![Fig2](images/Figure_3.png)
 ![Fig3](images/Figure_5.png)
-![FIg4](images/Figure_6.png)
-![FIg4](images/img.png)
